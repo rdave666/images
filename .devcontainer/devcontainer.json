@@ -122,4 +122,27 @@
             "type": "pythonEnvironment"
           },
           {
-            "path": "/usr/local/python/current/bin/python3
+            "path": "/usr/local/python/current/bin/python3",
+            "type": "pythonEnvironment"
+          },
+          {
+            "path": "/usr/local/python/current/bin/python",
+            "type": "pythonEnvironment"
+          },
+          {
+            "path": "/usr/bin/python3",
+            "type": "pythonEnvironment"
+          },
+          {
+            "path": "/bin/python3",
+            "type": "pythonEnvironment"
+          }
+        ],
+        "lldb.executable": "/usr/bin/lldb"
+      },
+      "extensions": [
+        "GitHub.vscode-pull-request-github"
+      ]
+    }
+  }
+}
