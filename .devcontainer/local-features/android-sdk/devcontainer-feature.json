@@ -1,0 +1,30 @@
+{
+    // Unique ID for the feature. Must match folder name if referencing via "./local-features/android-sdk".
+    "id": "android-sdk",
+    "version": "1.0.0",
+    "name": "Android SDK",
+    "description": "Installs the Android SDK command-line tools, plus sets up environment variables.",
+    "documentationURL": "https://developer.android.com/studio/command-line/sdkmanager",
+    "options": {
+        "installBuildTools": {
+            "type": "boolean",
+            "default": true,
+            "description": "Install build-tools (latest)."
+        },
+        "installPlatformTools": {
+            "type": "boolean",
+            "default": true,
+            "description": "Install platform-tools."
+        },
+        "sdkVersion": {
+            "type": "string",
+            "default": "latest",
+            "description": "Specify a version for cmdline-tools (e.g. '9477386_latest') or 'latest'."
+        }
+    },
+    // If you want this Feature to install only after certain other Features,
+    // you can specify them here. Usually, "common-utils" is a safe dependency.
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
