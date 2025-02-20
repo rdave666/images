@@ -75,12 +75,8 @@
     "./local-features/setup-user": "latest",
     "./local-features/patch-python": {},
     "./local-features/patch-conda": {},
-    "./local-features/android-sdk": {
-      "installBuildTools": "true",
-      "installPlatformTools": "true",
-      "sdkVersion": "latest"
-    }
-  },
+    
+  
   "overrideFeatureInstallOrder": [
     "ghcr.io/devcontainers/features/common-utils",
     "ghcr.io/devcontainers/features/git",
