@@ -1,0 +1,5 @@
+S3Scanner AAR Build Report
+Generated: Mon Feb 24 16:10:48 UTC 2025
+----------------------------------------
+Environment Check:
+✗ NDK not found

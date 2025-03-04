@@ -1,0 +1,10 @@
+S3Scanner Environment Readiness Report
+=====================================
+Generated: Fri Feb 21 10:21:42 UTC 2025
+
+Go Environment:
+✓ Go go1.13.8
+GOPATH: /go
+
+Android SDK:
+✗ Android SDK not found
